@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/image.png);
+  background-size: cover;
+  position: relative;
+}
+.header_shadow {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+.header_container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.header-paragraph {
+  margin-top: 62px;
+  margin-bottom: 42px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.offer {
+  border: 3px solid white;
+  height: 41px;
+  width: 164px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.offer:hover {
+  color: black;
+  background-color: white;
+}
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  width: 60%;
+}
+
+.experts {
+  background-color: #f1f1f1;
+  padding: 30px 0;
+}
+.expert {
+  display: flex;
+  gap: 60px;
+}
+
+.experts_title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 78px;
+}
+.expert:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.expert:nth-of-type(odd) .foto_expert {
+  background-image: url(images/foto1.jpg);
+}
+.expert:nth-of-type(even) .foto_expert {
+  background-image: url(images/foto2.jpg);
+}
+.name {
+  font-weight: 700;
+  font-size: 18px;
+}
+.expert_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.foto_expert {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.nav {
+  height: 50px;
+  background-color: #4e4e4e;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link-disabled:hover {
+  cursor: not-allowed;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navigation {
+  display: flex;
+  gap: 46px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.offer-list {
+  width: 720px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  gap: 63px;
+}
+.offers {
+  background-color: #405d78;
+  width: 100%;
+  padding: 30px 0;
+}
+.header-large {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 78px;
+}
+
+.offer-new {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  left: -15px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.offer-item {
+  width: 198px;
+  height: 194px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  transition: 5%; /* Tak wyglada standardowy komentarz CSS */
+  transition-duration: 0.5s;
+}
+
+.offer-item:hover {
+  transform: scale(1.05);
+} /* Tak wyglada standardowy komentarz CSS */
+
+.last {
+  background-color: #4e4e4e;
+  color: white;
+  height: 71px;
+}
+.footer_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.footer-info {
+  font-size: 18px;
+  font-weight: 700;
+}
+.fa-brands {
+  font-size: 30px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+/* Tak wyglada standardowy komentarz CSS */
