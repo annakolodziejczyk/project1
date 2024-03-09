@@ -1,0 +1,33 @@
+@media (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+  .offer-list {
+    width: 720px;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+  }
+  .navigation {
+    display: flex;
+    gap: 46px;
+  }
+  .expert {
+    flex-direction: row;
+  }
+  .expert:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .experts_title {
+    text-align: left;
+  }
+  .header-large {
+    text-align: left;
+  }
+  .footer_container {
+    flex-direction: row;
+  }
+  .heading {
+    width: 60%;
+  }
+}

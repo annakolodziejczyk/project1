@@ -1,0 +1,10 @@
+@media (hover: hover) {
+  .offer:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .offer-item:hover {
+    transform: scale(1.05);
+  }
+}
